@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/*  Styling site */
+body {
+  font-size: 18px ;
+  line-height: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Global nav*/
+.main-navigation {
+  display: flex;
+  justify-content: center;
+  padding: 0.5em;
+  background-color: maroon;
+}
+
+.menu a {
+  padding: 1em;
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu a:hover {
+  color: chocolate;
+}
+
+.current_page_item {
+  background-color: chocolate;
+}
+
+
+/* --- Titles --- */
+.entry-title {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  letter-spacing: 0.2vw;
+}
+
+
+/* --- The rest of the Content ---*/
+.post-thumbnail {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin: 0 8vw;
+}
+
+.entry-content ul {
+  margin: 5vh 8vw;
+}
+
+.entry-content a {
+  color: #92140C;
+}
+
+.entry-meta {
+  display: none;
+}
+
+
+/*About*/
+table {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+td {
+  text-align: center;
+}
+
+td a {
+  font-size: 20px;
+}
+
+td a:hover {
+ color: chocolate;
+}
+
+td img {
+  margin: 0 3em;
+}
+
+/*Contact Section*/
+.ol-layer {
+  margin-top: 5vh;
+}
+
+/* --- Search Form, Site Info & Footer  */
+.search-form {
+  margin-top: 10vh;
+  margin-left: 5vw;
+}
+
+
+.entry-footer, .site-info {
+  display: none;
+}
